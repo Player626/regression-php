@@ -1,0 +1,23 @@
+{
+    "name": "stitch/regression-php",
+    "description": "regression-php is a Php component containing a collection of linear least-squares fitting methods for simple data analysis.",
+    "autoload": {
+        "psr-4": {
+            "Stitch\\Regression\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stitch\\Regression\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stitch",
+            "email": "975975398@qq.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
